@@ -1,0 +1,19 @@
+{
+    "name": "f4n70m/tg-bot-core-php",
+    "description": "Telegram bot core on PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TgBotCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "F4N70M",
+            "email": "edkontr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
