@@ -53,10 +53,10 @@ class OutputAdapter implements iOutputAdapter
 		]);
 		$result = curl_exec($curl);
 		curl_close($curl);
-		echo "<pre>";
-			echo str_repeat("    ", $lvl);
-			print_r(json_decode($result, true));
-		echo "</pre>";
+		// echo "<pre>";
+		// 	echo str_repeat("    ", $lvl);
+		// 	print_r(json_decode($result, true));
+		// echo "</pre>";
 		return (($return = json_decode($result, true)) ? $return : $result);
 	}
 }
