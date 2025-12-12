@@ -1,6 +1,6 @@
 {
-    "name": "f4n70m/tg-bot-core-php",
-    "description": "Telegram bot core on PHP",
+    "name": "f4n70m/bot-core-php",
+    "description": "Multiplatform bot core on PHP",
     "type": "library",
     "license": "MIT",
     "autoload": {
